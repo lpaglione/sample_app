@@ -1,0 +1,7 @@
+require 'autotest/restart'
+require 'autotest/growl'
+require 'drb/drb'
+
+Autotest::Growl::image_dir = 'ampelmaennchen'
+Autotest::Growl::sticky_failure_notifications = true
+Autotest::Growl::show_modified_files = true

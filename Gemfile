@@ -10,6 +10,10 @@ end
 group :test do
 	gem 'rspec', '2.5.0'
 	gem 'webrat', '0.7.1'
+	gem 'ZenTest'
+	gem 'autotest-growl'
+	gem 'spork', '0.9.0.rc4'
+	gem 'win32-process'
 end
 
 # Bundle edge Rails instead:
